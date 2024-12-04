@@ -1,0 +1,16 @@
+.wrapper {
+  widows: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px;
+
+  align-items: flex-end;
+
+  .share {
+    margin: 0 5px;
+  }
+
+  .f-share {
+    margin: 0 5px 6px 0;
+  }
+}

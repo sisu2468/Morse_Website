@@ -1,0 +1,14 @@
+<!-- headerコンポーネント -->
+<app-header></app-header>
+<div class="wrapper">
+  <!-- select コンポーネント -->
+  <app-select (sendConvertType)="onSendConvertType($event)"></app-select>
+  <!-- input コンポーネント -->
+  <app-input [convertType]="setConvertType" (inputText)="onInput($event)"></app-input>
+  <!-- output コンポーネント -->
+  <app-output [convertType]="setConvertType" [text]="setText"></app-output>
+  <!-- share-button コンポーネント -->
+  <app-share-button></app-share-button>
+  <!-- description コンポーネント -->
+  <app-description></app-description>
+</div>
